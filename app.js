@@ -1,9 +1,10 @@
-const a = 5;
-const b = 2;
-const name = "ado";
+const player = {
+    name : "ado",
+    sayHello : function(otherPersonName){
+        console.log("Hello!!!! " + otherPersonName
+        + " I'm " + this.name);
+    }
 
-console.log("cute ADO");
-console.log(a+b);
-console.log(a/b);
-console.log(a*b);
-console.log("cute " + name);
+}
+
+player.sayHello("guri");
