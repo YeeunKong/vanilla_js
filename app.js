@@ -1,10 +1,4 @@
-const player = {
-    name : "ado",
-    sayHello : function(otherPersonName){
-        console.log("Hello!!!! " + otherPersonName
-        + " I'm " + this.name);
-    }
+const age = parseInt(prompt("How old are you?"));
 
-}
+console.log(age, typeof age);
 
-player.sayHello("guri");
