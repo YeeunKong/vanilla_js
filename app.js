@@ -1,6 +1,6 @@
 const age = parseInt(prompt("How old are you?"));
 
-let guri =1;
+let guri =2;
 
 console.log(age, typeof age);
 
